@@ -9,7 +9,7 @@
 	"scripts": {
 		"server": "nodemon server.js",
 		"client": "cd client && npm run start",
-		"dev": "concurrently --kill-others-on-fail \"npm run server\"\"npm run client\""
+		"dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
 	},
 	"devDependencies": {
 		"concurrently": "^8.0.1",
