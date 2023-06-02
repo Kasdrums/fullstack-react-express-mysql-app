@@ -2,7 +2,7 @@ const express = require('express')
 
 const app = express()
 
-const bricks = []
+const bricks = [{ id: 1, text: 'text' }]
 
 app.get('api/bricks', (req, res) => {
 	console.log('Get all bricks')
